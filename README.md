@@ -64,11 +64,11 @@ Here are some screenshots of FlickFlare project:
 ![Login Page](src/assets/screenshots/loginPage.png)
 
 ### Home Overview
-![Home Overview](src/assets/screenshots/homePage.png)
+![Home Overview](src/assets/screenshots/HomePage.png)
 
 ### Movie Overview
 ![Movie Overview 1](src/assets/screenshots/moviePage1.png)
-![Movie Overview 2](src/assets/screenshots/movePage2.png)
+![Movie Overview 2](src/assets/screenshots/moviePage2.png)
 
 ## Technologies Used
 <div style="display: flex; gap: 20px; flex-wrap: wrap;">
