@@ -32,6 +32,8 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     background-color: $background-color-light;
     z-index: 2;
+    max-height: 400px; /* Set your desired max height here */
+    overflow-y: auto;
     li {
       list-style-type: none;
       border-bottom: 1px solid gray;
