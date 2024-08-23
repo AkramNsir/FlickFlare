@@ -43,16 +43,24 @@ To set up the project locally, follow these steps:
   Open your browser and navigate to http://localhost:4200 to view the application.
 
 ## Usage
-Once the application is running, you can:
-  * Submit a Review: Use the form to add your movie review.
-  * View Reviews: Browse through submitted reviews on the each movie page.
-  * Search Films: Use the search functionality to find specific movies.
+Once the application is running, first you you will get a login page:    
+  * use these credentials:   
+    - test    
+    - 123456    
+  they are just hardcoded in ![](src/app/services/auth.service.ts), you can adjust them as you wish and once you have a backend you will get rid of them.        
+
+  After that you can:
+  * Submit a Review: Use the form to add your movie review.     
+  * View Reviews: Browse through submitted reviews on the each movie page.    
+  * Search Films: Use the search functionality to find specific movies.    
+
+  note: data is stored in local storage, there is no backend to persist data this is just a front-end project.      
 
 ## Technologies Used
 <div style="display: flex; gap: 20px; flex-wrap: wrap;">
 
 * <div style="background-color:blue;color:white;border-radius:5px;padding:10px;margin:5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qAb3e9auwnxJ1RmaypTdsieWkl2wb4u3cg&s" height="20" width="20" style="padding-left:10px"/> Angular
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" height="20" width="20" style="padding-left:10px"/> Angular
   </div>
 
 * <div style="background-color:#ffffff;color:#000000;border-radius:5px;padding:10px;margin:5px;">
@@ -61,7 +69,7 @@ Once the application is running, you can:
 
 * <div style="background-color:#47A248;color:white;border-radius:5px;padding:10px;margin:5px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="20" width="20" style="padding-left:10px"/> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="20" width="20" style="padding-left:10px"/>HTML/SCSS
+    <img src="https://sass-lang.com/assets/img/styleguide/seal-color.png" height="20" width="20" style="padding-left:10px"/>HTML/SCSS
   </div>
 
 </div>
