@@ -8,9 +8,10 @@ FlickFlare is a user-friendly Angular-based application designed for film enthus
 1. Overview
 2. Installation
 3. Usage
-4. Technologies Used
-5. Contributing
-6. Contact
+4. Screenshors
+5. Technologies Used
+6. Contributing
+7. Contact
 
 ***
 
@@ -45,9 +46,9 @@ To set up the project locally, follow these steps:
 ## Usage
 Once the application is running, first you you will get a login page:    
   * use these credentials:   
-    - test    
-    - 123456    
-  they are just hardcoded in ![](src/app/services/auth.service.ts), you can adjust them as you wish and once you have a backend you will get rid of them.        
+    - username: "test"    
+    - password: "123456"   
+  they are just hardcoded in ![](src/app/services/auth.service.ts), you can adjust them as you like. Once you have a backend get rid of them and use your authentification api.        
 
   After that you can:
   * Submit a Review: Use the form to add your movie review.     
@@ -55,6 +56,19 @@ Once the application is running, first you you will get a login page:
   * Search Films: Use the search functionality to find specific movies.    
 
   note: data is stored in local storage, there is no backend to persist data this is just a front-end project.      
+
+## Screenshots 
+Here are some screenshots of FlickFlare project:
+
+### Login Page
+![Login Page](src/assets/screenshots/loginPage.png)
+
+### Home Overview
+![Home Overview](src/assets/screenshots/homePage.png)
+
+### Movie Overview
+![Movie Overview 1](src/assets/screenshots/moviePage1.png)
+![Movie Overview 2](src/assets/screenshots/movePage2.png)
 
 ## Technologies Used
 <div style="display: flex; gap: 20px; flex-wrap: wrap;">
@@ -69,7 +83,7 @@ Once the application is running, first you you will get a login page:
 
 * <div style="background-color:#47A248;color:white;border-radius:5px;padding:10px;margin:5px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="20" width="20" style="padding-left:10px"/> 
-    <img src="https://sass-lang.com/assets/img/styleguide/seal-color.png" height="20" width="20" style="padding-left:10px"/>HTML/SCSS
+    <img src="https://sass-lang.com/assets/img/styleguide/seal-color.png" height="20" width="20" style="padding-left:10px"/> HTML/SCSS
   </div>
 
 </div>
