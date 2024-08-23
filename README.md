@@ -1,27 +1,95 @@
-# SuppsStore
+# FlickFlare
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+FlickFlare is a user-friendly Angular-based application designed for film enthusiasts to share and discover movie reviews. This frontend project allows users to submit their reviews, browse existing ones, and interact with a dynamic interface. Developed with Angular, FlickFlare highlights essential features of the framework and provides a seamless experience for movie review management.
 
-## Development server
+***
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+> Table of Contents
+1. Overview
+2. Installation
+3. Usage
+4. Technologies Used
+5. Contributing
+6. Contact
 
-## Code scaffolding
+***
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Overview
+FlickFlare provides a platform for users to share and read reviews about movies. The application includes features such as review submission, viewing reviews, and browsing film information. It is built with Angular to demonstrate the framework's capabilities in creating dynamic and interactive web applications.
 
-## Build
+## Installation
+To set up the project locally, follow these steps:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  1. Clone the Repository:
+  ```
+  git clone https://github.com/your-username/flickflare.git
+  ```
 
-## Running unit tests
+  2. Navigate to the Project Directory:
+  ```
+  cd flickflare
+  ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  3. Install Dependencies:
+  Ensure you have Node.js installed. Then run:
+  ```
+  npm install
+  ```
 
-## Running end-to-end tests
+  4. Run the Application:
+  ```
+  ng serve
+  ```
+  Open your browser and navigate to http://localhost:4200 to view the application.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Usage
+Once the application is running, you can:
+  * Submit a Review: Use the form to add your movie review.
+  * View Reviews: Browse through submitted reviews on the each movie page.
+  * Search Films: Use the search functionality to find specific movies.
 
-## Further help
+## Technologies Used
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* <div style="background-color:blue;color:white;border-radius:5px;padding:10px;margin:5px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qAb3e9auwnxJ1RmaypTdsieWkl2wb4u3cg&s" height="20" width="20" style="padding-left:10px"/> Angular
+  </div>
+
+* <div style="background-color:#ffffff;color:#000000;border-radius:5px;padding:10px;margin:5px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png" height="20" width="20" style="padding-left:10px"/> TypeScript
+  </div>
+
+* <div style="background-color:#47A248;color:white;border-radius:5px;padding:10px;margin:5px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="20" width="20" style="padding-left:10px"/> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="20" width="20" style="padding-left:10px"/>HTML/SCSS
+  </div>
+
+</div>
+
+## Contributing
+Contributions to FlickFlare are welcome! To contribute:
+
+  1. Fork the repository.
+  2. Create a new branch 
+
+  ```
+  git checkout -b feature-branch
+  ```
+  3. Make your changes.
+  4. Commit your changes
+
+  ```
+  git commit -am "Add new feature"
+  ```
+  5. Push to the branch
+  ```
+  git push origin feature-branch
+  ```
+  6. Create a new Pull Request.
+
+## Contact
+For any inquiries or issues, feel free to reach out:
+
+Name: Mohamed Akram Nsir    
+Email: akramnsir5@gamil.com    
+GitHub: https://github.com/AkramNsir
