@@ -1,0 +1,96 @@
+@import '../../styles.scss';
+
+.login-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, $background-color-light , $background-color-dark);
+  position: relative;
+  .logo {
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+  }
+  .desc {
+    font-size: 22px;
+    font-family: 'Aladin', cursive;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    text-align: center;
+    line-height: 2;
+    width: 950px;
+  }
+  .film {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 435px;
+  }
+  .login-form {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 5px 5px 20px #383838;
+    .form-group {
+      margin-top: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+    .btn-container {
+      position: relative;
+      .btn {
+        margin-top: 30px;
+      }
+      .error {
+        position: absolute;
+        top: 32px;
+        right: 0px;
+        color: red;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .login-container {
+    .logo {
+      font-size: 40px;
+      font-weight: bold;
+      right: 20%;
+    }
+    .desc {
+      font-size: 18px;
+      top: 110px;
+      width: 90%;
+      text-align: center;
+    }
+    .film {
+      display: none;
+    }
+    .login-form {
+      width: 450px;
+      height: 250px;
+      bottom: 30px;
+      right: 22%;
+      .form-group {
+        margin-top: 20px;
+      }
+      .btn-container {
+        .btn {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

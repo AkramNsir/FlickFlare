@@ -1,0 +1,25 @@
+@import '../../styles.scss';
+
+.footer-container {
+  width: 100%;
+  height: 80px;
+  background-color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .up-btn {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Creepster', cursive;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+  }
+  .up-btn:hover {
+    transform: translateY(-5px);
+  }
+}
+
+

@@ -1,0 +1,17 @@
+<div  [ngClass]="{'rates': isFocused}"> 
+  <ng-template #t let-fill="fill">
+  <span class="star" [class.full]="fill === 100">
+    <span class="half" [style.width.%]="fill">&hearts;</span>
+    &hearts;
+  </span>
+</ng-template>
+
+<ngb-rating 
+  [(rate)]="rating"
+  [starTemplate]="t"
+  [readonly]="isReadOnly"
+  [max]="5"
+  (rateChange)="onRatingChange($event)"
+></ngb-rating>
+</div>
+

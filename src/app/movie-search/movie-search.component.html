@@ -1,0 +1,23 @@
+<div id="search-component">
+  <div class="search-form">
+    <input
+      class="form-control"
+      #searchBox
+      id="search-box"
+      (input)="search(searchBox.value)"
+      autocomplete="off"
+      placeholder="Search..."
+    />
+  </div>
+<div>
+
+  <ul [ngClass]="{'search-result': true, 'hidden': !isSearchMenuVisible}">
+    <li (click)="goToMovie(movie.type, movie.id)" *ngFor="let movie of movies$ | async">
+      <a>
+        {{ movie.name }}
+      </a>
+    </li>
+  </ul>
+</div>
+  
+</div>

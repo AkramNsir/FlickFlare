@@ -1,0 +1,34 @@
+<div class="login-container">
+  <img class="film" src="assets/images/film.png" alt="" />
+  <div class="logo">FlickFlare</div>
+  <div class="desc">
+    FlickFlare delivers standout reviews on the latest films and series.
+    Discover hidden gems, must-watch hits, and more with our unique, engaging
+    insights. Let us add a spark to your screen time!
+  </div>
+  <div class="login-form">
+    <div class="form-group">
+      <label for="uname">Username</label>
+      <input
+        type="text"
+        id="uname"
+        class="form-control"
+        [(ngModel)]="username"
+        autocomplete="off"
+      />
+    </div>
+    <div class="form-group">
+      <label for="pword">Password</label>
+      <input
+        type="password"
+        id="pword"
+        class="form-control"
+        [(ngModel)]="password"
+      />
+    </div>
+    <div class="btn-container">
+      <div class="error">{{ errorMsg }}</div>
+      <button class="btn btn-dark" (click)="login()">Login</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,121 @@
+@import '../../styles.scss';
+
+.home-container {
+  margin-top: 100px;
+  display: flex;
+  .all-movies {
+    width: 75%;
+    height: calc(100% - 80px);
+    margin-bottom: 20px;
+    border-right: 1px solid $primary-color;
+    padding: 20px 40px;
+    font-family: "Roboto", sans-serif;
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      h4 {
+        text-transform: uppercase;
+        font-weight: bold;
+        border-left: 5px solid $primary-color;
+        padding-left: 10px;
+      }
+      .view-all {
+        color: $primary-color;
+        cursor: pointer;
+      }
+      .view-all:hover {
+        text-decoration: underline;
+      }
+    }
+    .movies-thumbnail {
+      display: flex;
+      // justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 80px;
+      .movie {
+        .cover {
+          cursor: pointer;
+        
+          img {
+            width: 180px;
+          height: 260px;
+            border-radius: 5px;
+            transition: all 0.4s ease-in-out;
+          }
+          img:hover {
+            transform: scale(1.02);
+          }
+        }
+        .detail {
+          width: 180px;
+          .name {
+            font-weight: bold;
+            height: 50px;
+            margin-top: 5px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .popular-movies {
+    width: 25%;
+    min-height: calc(100vh - 80px);
+    padding: 20px 40px;
+    font-family: "Roboto", sans-serif;
+    h4 {
+      text-transform: uppercase;
+      font-weight: bold;
+      border-left: 5px solid $primary-color;
+      padding-left: 10px;
+    }
+    .movies {
+      .movie {
+        margin-bottom: 20px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: all 0.4s ease-in-out;
+        .name {
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+      .movie:hover{
+        transform: translateX(10px);
+      }
+      .view-all {
+        text-align: right;
+        margin-top: 30px;
+      }
+      .view-all div{
+        color: $primary-color;
+        text-decoration: none;
+        text-align: right;
+        margin-top: 30px;
+        cursor: pointer; 
+        transform: 0.5s;
+      }
+      .view-all div:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.rating {
+  padding-right: 45px;
+  position: relative;
+  .rating-value {
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-weight: bold;
+  }
+}
+
