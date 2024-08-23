@@ -140,5 +140,45 @@
         "showReview": false
       }
     ]
+  },
+  {
+    "id": 28,
+    "type": "popular",
+    "name": "Tears Of The Sun",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d9/Tears_of_the_Sun_movie.jpg",
+    "rating": 4.1,
+    "reviews": []
+  },
+  {
+    "id": 29,
+    "type": "popular",
+    "name": "Home Alone",
+    "cover": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+    "rating": 4.82,
+    "reviews": []
+  },
+  {
+    "id": 30,
+    "type": "popular",
+    "name": "Identity",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/Identity_poster.jpg",
+    "rating": 3.92,
+    "reviews": []
+  },
+  {
+    "id": 31,
+    "type": "popular",
+    "name": "Aśoka",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/88/Asoka_%282001_film%29.jpg",
+    "rating": 4.35,
+    "reviews": []
+  },
+  {
+    "id": 32,
+    "type": "popular",
+    "name": "Taxi Driver",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/33/Taxi_Driver_%281976_film_poster%29.jpg",
+    "rating": 3.75,
+    "reviews": []
   }
 ]
