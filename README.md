@@ -8,7 +8,7 @@ FlickFlare is a user-friendly Angular-based application designed for film enthus
 1. Overview
 2. Installation
 3. Usage
-4. Screenshors
+4. Screenshots
 5. Technologies Used
 6. Contributing
 7. Contact
