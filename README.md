@@ -44,7 +44,7 @@ To set up the project locally, follow these steps:
   Open your browser and navigate to http://localhost:4200 to view the application.
 
 ## Usage
-Once the application is running, first you you will get a login page:    
+Once the application is running, first you will get a login page:    
   * use these credentials:   
     - username: "test"    
     - password: "123456"   
