@@ -8,7 +8,7 @@ FlickFlare is a user-friendly Angular-based application designed for film enthus
 1. Overview
 2. Installation
 3. Usage
-4. Screenshors
+4. Screenshots
 5. Technologies Used
 6. Contributing
 7. Contact
@@ -23,12 +23,12 @@ To set up the project locally, follow these steps:
 
   1. Clone the Repository:
   ```
-  git clone https://github.com/your-username/Flickflare.git
+  git clone https://github.com/AkramNsir/Flickflare.git
   ```
 
   2. Navigate to the Project Directory:
   ```
-  cd flickflare
+  cd Flickflare
   ```
 
   3. Install Dependencies:
@@ -44,7 +44,7 @@ To set up the project locally, follow these steps:
   Open your browser and navigate to http://localhost:4200 to view the application.
 
 ## Usage
-Once the application is running, first you you will get a login page:    
+Once the application is running, first you will get a login page:    
   * use these credentials:   
     - username: "test"    
     - password: "123456"   
