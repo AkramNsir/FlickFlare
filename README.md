@@ -46,8 +46,8 @@ To set up the project locally, follow these steps:
 ## Usage
 Once the application is running, first you will get a login page:    
   * use these credentials:   
-    - username: "test"    
-    - password: "123456"   
+    - Username: "test"    
+    - Password: "123456"   
   they are just hardcoded in [auth.service.ts](src/app/services/auth.service.ts) , you can adjust them as you like. Once you have a backend get rid of them and use your authentification api.        
 
   After that you can:
