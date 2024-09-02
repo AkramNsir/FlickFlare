@@ -55,7 +55,7 @@ Once the application is running, first you you will get a login page:
   * View Reviews: Browse through submitted reviews on the each movie page.    
   * Search Films: Use the search functionality to find specific movies.    
 
-  note: data is stored in local storage, there is no backend to persist data this is just a front-end project.      
+  Note: data is stored in local storage, there is no backend to persist data this is just a front-end project.      
 
 ## Screenshots 
 Here are some screenshots of FlickFlare project:
